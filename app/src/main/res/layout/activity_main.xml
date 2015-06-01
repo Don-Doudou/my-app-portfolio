@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/et_1"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn1"
+        android:id="@+id/btn_spotstream"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#F08C35"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+      />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2"
+        android:id="@+id/btn_scores"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#F08C35"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn3"
+        android:id="@+id/btn_libapp"
+        android:background="#F08C35"
+        android:layout_marginTop="15dp"
+
+      />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn4"
+        android:id="@+id/btn_buildit"
+        android:background="#F08C35"
+        android:layout_marginTop="15dp"
+
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn5"
+        android:id="@+id/btn_xyzreader"
+        android:background="#F08C35"
+        android:layout_marginTop="15dp"
+
+      />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn6"
+        android:id="@+id/btn_capstone"
+        android:background="#F08C35"
+        android:layout_marginTop="15dp"
+
+        />
+
+</LinearLayout>

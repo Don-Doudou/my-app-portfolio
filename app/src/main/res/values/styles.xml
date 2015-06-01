@@ -1,0 +1,10 @@
+<resources>
+
+
+    <!-- inherit from the material theme -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+
+    </style>
+
+
+</resources>
